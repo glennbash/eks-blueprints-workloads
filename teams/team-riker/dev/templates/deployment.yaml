@@ -16,6 +16,7 @@ spec:
       labels:
         app: guestbook-ui
     spec:
+      serviceAccountName: team-riker
       containers:
       - image: 111442077524.dkr.ecr.us-west-2.amazonaws.com/group3-api:v2
         name: guestbook-ui
