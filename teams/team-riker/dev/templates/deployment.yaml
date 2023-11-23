@@ -18,7 +18,7 @@ spec:
     spec:
       serviceAccountName: team-riker
       containers:
-      - image: 111442077524.dkr.ecr.us-west-2.amazonaws.com/group3-api:v4
+      - image: 111442077524.dkr.ecr.us-west-2.amazonaws.com/group3-api:v3
         name: guestbook-ui
         ports:
           - containerPort: 8080
